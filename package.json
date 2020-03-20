@@ -1,0 +1,32 @@
+{
+  "name": "tensor-flow-js",
+  "version": "1.0.0",
+  "description": "ML with Tensorflow and NodeJS",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "npm run build-ts",
+    "build-ts": "tsc"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.7.0",
+    "@tensorflow/tfjs-node": "^1.7.0",
+    "@tensorflow/tfjs-node-gpu": "^1.7.0",
+    "express": "^4.17.1",
+    "prettier": "^1.19.1"
+  }
+}
