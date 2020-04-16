@@ -1,6 +1,6 @@
 const tf = require('@tensorflow/tfjs-node-gpu');
 
-// Train a simple model:
+// Train a simple model(s):
 const model = tf.sequential();
 model.add(
   tf.layers.dense({ units: 1000, activation: "relu", inputShape: [10] })
